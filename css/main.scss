@@ -18,6 +18,9 @@ $text-color:       #111;
 $background-color: #fdfdfd;
 $brand-color:      #2a7ae2;
 
+$port-bgcolor:     #C9C9C9;
+$port-color:       #081E2D;
+
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
@@ -28,6 +31,7 @@ $content-width:    800px;
 $on-palm:          600px;
 $on-laptop:        800px;
 
+$section-margins:  50px 0 50px 0;
 
 
 // Use media queries like this:
