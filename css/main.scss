@@ -21,6 +21,8 @@ $brand-color:      #2a7ae2;
 $port-bgcolor:     #C9C9C9;
 $port-color:       #081E2D;
 
+$border-grey:      #D2D2D2;
+
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
@@ -52,6 +54,6 @@ $section-margins:  50px 0 50px 0;
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
         "base",
-        "layout",
-        "syntax-highlighting"
+        "layout"
+        // "syntax-highlighting"
 ;
