@@ -8,10 +8,10 @@
 # Site settings
 title: Tim Griffith
 email: tmgriffith1991@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+description: > #
+  My name is Tim and I am a Frontend Web Developer. I have built a couple of websites using WordPress and can also build a site from scratch using either node.js or jekyll as a server.
+  Web Development is my passion. I am currently looking for a new opportunity to join a development team. If you like my portfolio and want to learn more about me, please shoot me a message through 
+  the form at the bottom of the page.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://localhost:4000" # the base hostname & protocol for your site
 twitter_username: jekyllrb
