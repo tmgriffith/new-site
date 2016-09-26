@@ -90,6 +90,15 @@ nav {
     color: $themePrimary;
     font-size: 24px;
 
+    @media only screen and (max-width: 640px) {
+      padding: 15px;
+      height: 50px;
+
+      a{
+        display: none;
+      }
+    }
+
     p {
         float: left;
     }
@@ -166,7 +175,7 @@ nav {
             right: 15px;
             top: 70px;
             width: 40%;
-        }
+
 
         a {
             display: block;
@@ -180,6 +189,7 @@ nav {
               text-align: left;
             }
         }
+      }
 
         :hover ul {
             display: block;
@@ -656,9 +666,17 @@ header {
     }
     @media screen and (min-width: 540px) and (max-width: 767px) {
         height: 200px;
+
+        .title {
+          vertical-align: top;
+        }
     }
     @media screen and (min-width: 320px) and (max-width: 539px) {
-        height: 70px;
+        height: 130px;
+
+        .title {
+          vertical-align: top;
+        }
     }
 }
 
@@ -794,7 +812,9 @@ header {
         .photo {}
     }
 
-    .big-description {}
+    .big-description {
+      padding: 0 5px;
+    }
 }
 @media screen and (min-width: 320px) and (max-width: 539px) {
     .row {
@@ -803,7 +823,9 @@ header {
         .photo {}
     }
 
-    .big-description {}
+    .big-description {
+      padding: 0 5px;
+    }
 }
 
 .hide-sm {
