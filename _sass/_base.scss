@@ -374,7 +374,8 @@ contact section
 
         label input, textarea {
           font-size: 1em;
-          padding: 5px
+          padding: 5px;
+          font-family: $base-font-family;
         }
 
         label {
