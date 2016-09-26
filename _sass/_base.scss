@@ -87,7 +87,7 @@ nav {
     height: 100px;
     padding: 30px;
     background-color: transparent;
-    color: #C9C9C9;
+    color: $themePrimary;
     font-size: 24px;
 
     p {
@@ -126,28 +126,28 @@ nav {
 
     a:link,
     a:visited {
-        color: #C9C9C9;
+        color: $themePrimary;
     }
 
     a:hover {
         text-decoration: none;
-        background-color: #1E323F;
         color: #767C81;
-    }
-
-    li:hover {
-        background-color: #1E323F;
     }
 
     #menu-icon {
         display: none;
         float: right;
-        width: 40px;
-        height: 40px;
+        width: 30px;
+        height: 30px;
+        padding: 5px;
+        vertical-align: top;
+        // border: 2px solid;
     }
 
     a:hover#menu-icon {
-        background-color: #1E323F;
+        i {
+          color: #fff;
+      }
     }
     @media only screen and (max-width: 640px) {
         #menu-icon {
@@ -158,19 +158,27 @@ nav {
         ul {
             display: none;
             position: absolute;
-            padding: 20px;
-            background: #fff;
+            padding-bottom: 20px;
+            background: $themeSecondary;
             border: 2px solid #767C81;
+            border-radius: 10px;
+            box-shadow: inset 0px 0px 25px #fff;
             right: 15px;
-            top: 50px;
-            width: 20%;
+            top: 70px;
+            width: 40%;
         }
 
-        li {
+        a {
+            display: block;
             text-align: left;
+            color: $themePrimary;
             width: 100%;
-            padding: 10px 5px;
+            padding: 20px 20px;
             margin: 0;
+
+            li {
+              text-align: left;
+            }
         }
 
         :hover ul {
