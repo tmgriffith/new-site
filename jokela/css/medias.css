@@ -221,6 +221,12 @@
     }
 }
 
+@media only screen and (max-width: 400px) {
+  #map .address .address-inner p{
+    width: 100%;
+  }
+}
+
 @media only screen and (max-width:320px) {
 
     #header .header-content {
@@ -240,9 +246,6 @@
     }
     #practice h1 {
         font-size: 2em;
-    }
-    #map .address .address-inner p {
-        width: 100%;
     }
     footer img {
         max-width: 100%;
