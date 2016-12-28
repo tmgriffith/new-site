@@ -114,6 +114,10 @@
     #about .row {
         padding-left: 15px;
     }
+    #lorem .container-fluid{
+        padding-left: 0;
+        padding-right: 0;
+    }
     #lorem h1 {
         font-size: 3em;
         padding: 10px 0;
