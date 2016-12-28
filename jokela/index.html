@@ -326,6 +326,16 @@
 		</div>
 	</footer>
 
+<script type="text/javascript">
+var dropDown = document.getElementById('drop-down');
+var hiddenMenu = document.getElementById('hidden-menu');
 
+dropDown.addEventListener('mouseup', touched, false);
+
+function touched(event){
+	hiddenMenu.style.display = "block";
+	return false;
+}
+</script>
 </body>
 </html>
