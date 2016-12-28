@@ -1,0 +1,249 @@
+@media only screen and (max-width: 1024px) {
+    /* mobile menu */
+    #menu-icon {
+        display: inline-block;
+        /*color: #000;*/
+        /*background: #fff;*/
+    }
+    #menu-icon i {
+        width: 40px;
+        height: 40px;
+        padding: 5px;
+        color: #cbbb98;
+    }
+    nav {
+        text-align: right;
+    }
+    .nav-2 {
+        border: none;
+    }
+    nav ul, nav:active ul {
+        display: none;
+        position: absolute;
+        padding: 20px;
+        background: #fff;
+        border: 5px solid #444;
+        right: 0px;
+        top: 110px;
+        width: 100%;
+        border-radius: 4px 0 4px 4px;
+    }
+    .nav-2 nav ul li a:first-child {
+        padding: 0;
+    }
+    .nav-2 nav ul li, .nav-2 nav ul li a {
+        text-align: center;
+        width: 100%;
+        padding: 15px 0;
+        margin: 0;
+        color: #000;
+        float: none;
+        width: auto;
+        display: block;
+    }
+    .nav-2 nav ul li{
+      border-bottom: 1px solid #eee;
+    }
+    .nav-2 nav ul li:hover{
+      background-color: #cbbb98;
+      color: #fff;
+    }
+    .nav-2 nav ul li:hover a{
+      color: #fff;
+    }
+    .nav-2 ul #drop-down #hidden-menu{
+      right: 0;
+      top: -180px;
+      z-index: 9999;
+    }
+    .nav-2 ul #drop-down #hidden-menu li{
+      margin-left: 0;
+      min-width: 0;
+    }
+
+    nav:hover ul {
+        display: block;
+    }
+    /*end mobile menu*/
+    #header .header-content {
+        padding-top: 0%;
+    }
+    #selling-points {
+        background: #000;
+        margin-top: -200px;
+    }
+    #selling-points .selling-points-inner {
+        margin: 0 20px;
+        margin-bottom: 100px;
+    }
+    #lorem p {
+        width: 80%;
+        margin: auto;
+    }
+    #map .address {
+        margin: 150px 50px 0 0;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .nav-2 {
+        background: transparent;
+        border: none;
+    }
+    #header .header-content {
+        width: 80%;
+        margin: auto;
+        padding: 50px 0;
+        text-align: center;
+    }
+    #selling-points {
+        margin-top: -300px;
+    }
+    #practice h1 {
+        font-size: 4em;
+    }
+    #about h1 {
+        font-size: 4em;
+        width: 90%;
+        margin: auto;
+        text-align: center;
+    }
+    #about h2 {
+        text-align: center;
+    }
+    #about .row {
+        padding-left: 15px;
+    }
+    #lorem h1 {
+        font-size: 3em;
+        padding: 10px 0;
+        text-align: center;
+    }
+    #lorem p {
+        width: 100%;
+        margin: 0;
+    }
+    #contact h1 {
+        font-size: 3em;
+    }
+    footer {
+        text-align: center;
+    }
+    footer .copy, footer img {
+        float: none;
+        text-align: center;
+        line-height: 2em;
+    }
+    #map .address {
+        float: none;
+        width: 60%;
+        margin: auto;
+        padding-top: 100px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .nav-1 {
+        height: 55px;
+    }
+    .nav-1 img {
+        padding: 10px;
+        width: 50%;
+    }
+    .nav-1 p {
+        font-size: 12px;
+        padding: 10px;
+    }
+    .nav-1 p span {
+        display: block;
+        font-size: 1.5em;
+    }
+    .nav-2 {
+        background: #000;
+    }
+    .nav-2 ul #drop-down #hidden-menu{
+      width: 100%;
+      /*top: -220px;*/
+      /*right: 110%;*/
+    }
+    #header {
+        background-image: url(../images/header.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: auto;
+    }
+    #header img {
+        display: none;
+    }
+    #header .header-content h1 {
+        font-size: 3em;
+    }
+    #header .header-content .header-btn {
+        font-size: 1em;
+    }
+    #selling-points {
+        margin-top: 0;
+        padding-top: 0;
+    }
+    #selling-points .selling-points-inner div {
+        padding: 10px;
+    }
+    #about h1 {
+        font-size: 3em;
+    }
+    #lorem h1 {
+        font-size: 2em;
+    }
+    #contact h1 {
+        font-size: 3em;
+    }
+    #practice h1 {
+        font-size: 3em;
+    }
+    #about .row {
+        text-align: center;
+    }
+    #about h2 {
+        margin-right: 15px;
+    }
+    #about .row h3 {
+        text-align: left;
+    }
+    #lorem p{
+      text-align: left;
+    }
+    #contact input {
+        width: 100%;
+    }
+    #map .address {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width:320px) {
+
+    #header .header-content {
+        width: 100%;
+    }
+    #about h1 {
+        font-size: 2.5em;
+    }
+    #about h3 {
+        font-size: 1.5em;
+    }
+    #lorem h1 {
+        font-size: 2em;
+    }
+    #contact h1 {
+        font-size: 2em;
+    }
+    #practice h1 {
+        font-size: 2em;
+    }
+    #map .address .address-inner p {
+        width: 90%;
+    }
+    footer img {
+        max-width: 100%;
+    }
+}
